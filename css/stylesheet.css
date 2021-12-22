@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    font-size: 110%;
+    background-color: #FCF7F8;
+}
+
+header {
+    background: #343330;
+    color: #FCF7F8;
+    padding: 2.5em;
+    text-align: center;
+}
+
+nav {
+    background: olivedrab;
+    width: 20%;
+}
+
+footer {
+    background-color: #343330;
+    padding: 2.5em;
+    text-align: center;
+}
+
+footer a img {
+    border-radius: 50%;
+}
