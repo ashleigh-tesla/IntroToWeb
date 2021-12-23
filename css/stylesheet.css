@@ -7,7 +7,7 @@ body {
 header {
     background: #343330;
     color: #FCF7F8;
-    padding: 2.5em;
+    padding: 1.5em;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -16,8 +16,8 @@ header {
 }
 
 header aside {
-    height: 205px;
-    width: 205px;
+    height: 175px;
+    width: 175px;
     cursor: default;
     background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
     border-radius: 50%;
@@ -42,8 +42,17 @@ header aside img {
     }
 }
 
+main {
+    display: flex;
+    width: 100%;
+}
+
 nav {
     background: olivedrab;
+    color: white;
+    /* flex   : 1; */
+    padding: 0.2em;
+    width: 30%;
 }
 
 nav h3 {
@@ -53,13 +62,26 @@ nav h3 {
 nav ul {
     line-height: 2.5;
     list-style: none;
+    padding-inline-start: 0;
     list-style-type: none;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: 700;
+}
+
+article {
+    padding: 2.0em;
+    /* flex: 3; */
+    width: 70%;
 }
 
 footer {
     background-color: #343330;
     color: #FCF7F8;
-    padding: 2.5em;
+    padding: 1.5em;
     text-align: center;
 }
 
